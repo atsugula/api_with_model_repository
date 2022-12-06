@@ -14,9 +14,9 @@
                     <div class="card-body text-monospace">
                         <p>Estas son algunas ayudas para agilizar el proceso</p>
                         <p>
-                            Para traer todos los datos <code>http://127.0.0.1:8000/activity</code> método <code>GET</code>. <br>
+                            Para traer todos los datos <code>http://127.0.0.1:8000/api/activity</code> método <code>GET</code>. <br>
 
-                            Para registrar una Activity <code>http://127.0.0.1:8000/activity</code> método <code>POST</code>.<br>
+                            Para registrar una Activity <code>http://127.0.0.1:8000/api/activity</code> método <code>POST</code>.<br>
                             Formato JSON de referencia:
 <pre><code>{
     "monitor_id": 1,
@@ -27,7 +27,7 @@
     "final_hour": "11:12 AM",
     "expertise_id": 1
 }</code></pre>
-                            Para actualizar una Activity <code>http://127.0.0.1:8000/activity/{id}</code> método <code>PATCH or PUT</code>.<br>
+                            Para actualizar una Activity <code>http://127.0.0.1:8000/api/activity/{id}</code> método <code>PATCH or PUT</code>.<br>
                             Formato JSON de referencia:
 <pre><code>{
     "monitor_id": 1,
@@ -38,8 +38,8 @@
     "final_hour": "11:45 PM",
     "expertise_id": 1
 }</code></pre>
-                            Para buscar una Activity <code>http://127.0.0.1:8000/activity/{id}</code> método <code>GET</code>.<br>
-                            Para eliminar una Activity <code>http://127.0.0.1:8000/activity/{id}</code> método <code>DELETE</code>.<br>
+                            Para buscar una Activity <code>http://127.0.0.1:8000/api/activity/{id}</code> método <code>GET</code>.<br>
+                            Para eliminar una Activity <code>http://127.0.0.1:8000/api/activity/{id}</code> método <code>DELETE</code>.<br>
 
                         </p>
                     </div>
